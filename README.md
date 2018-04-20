@@ -34,16 +34,27 @@ events {
 }
 
 http {
+
 server {
+
                 location ~ \.cgi$
+                
                 {
+                
                 fastcgi_pass 127.0.0.1:6666;
+                
                 fastcgi_index index.cgi;
+                
                 fastcgi_param SCRIPT_FILENAME fcgi$fastcgi_script_name;
+                
                 include fastcgi_params;
+                
                 }
+                
        }
+       
 }
+
 
 设计架构：
 
