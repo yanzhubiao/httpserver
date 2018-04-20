@@ -9,8 +9,11 @@ see: http://www.cnblogs.com/skynet/p/4173450.html
 环境配置：
 平台:ubuntu
 软件需求：gcc、c++11、nginx、fcgi、spawn-fcgi、cmake
+
 see: http://chriswu.me/blog/writing-hello-world-in-fcgi-with-c-plus-plus/
+
 nginx配置路径 /etc/nginx/nginx.conf
+
 配置内容:
 user www-data;
 worker_processes auto;
