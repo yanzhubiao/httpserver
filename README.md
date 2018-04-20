@@ -1,2 +1,2 @@
 # httpserver
-nginx + fcgi +spawn-fcgi
+nginx + fcgi + spawn-fcgi
